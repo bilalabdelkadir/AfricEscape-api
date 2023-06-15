@@ -1,5 +1,5 @@
-import User from "../../model/User/User.js";
-import { validateUser } from "../../model/User/User.js";
+import User from "../../model/User/UserSchema.js";
+import { validateUser } from "../../model/User/UserSchema.js";
 import createToken from "../../utils/CreateToken.js";
 import nodemailer from "nodemailer";
 import jwt from "jsonwebtoken";

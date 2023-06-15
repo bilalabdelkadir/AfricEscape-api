@@ -1,4 +1,4 @@
-import { Destination } from "../../model/Destination/Destination.js";
+import { Destination } from "../../model/destination/DestinationSchema.js";
 import fs from "fs";
 
 const updateDestination = async (req, res) => {

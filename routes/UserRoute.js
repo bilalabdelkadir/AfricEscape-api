@@ -1,8 +1,8 @@
 import express from "express";
-import getUser from "../controller/user/getUser.js";
-import updateUser from "../controller/user/updateUser.js";
-import deleteUser from "../controller/user/deleteUser.js";
-import authMiddleware from "../middleware/chekUser.js";
+import getUser from "../controller/user/GetUserController.js";
+import updateUser from "../controller/user/UpdateUserController.js";
+import deleteUser from "../controller/user/DeleteUserController.js";
+import authMiddleware from "../middleware/CheckTokenMiddleware.js";
 import multer from "multer";
 
 const storage = multer.diskStorage({

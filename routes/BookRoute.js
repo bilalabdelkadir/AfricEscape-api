@@ -1,8 +1,8 @@
 import express from "express";
-import createBooking from "../controller/booking/createBookingController.js";
-import updateBooking from "../controller/booking/updateBookingController.js";
-import authMiddleware from "../middleware/chekUser.js";
-import deleteBooking from "../controller/booking/deleteBookingController.js";
+import createBooking from "../controller/booking/CreateBookingController.js";
+import updateBooking from "../controller/booking/UpdateBookingController.js";
+import authMiddleware from "../middleware/CheckTokenMiddleware.js";
+import deleteBooking from "../controller/booking/DeleteBookingController.js";
 
 const router = express.Router();
 
