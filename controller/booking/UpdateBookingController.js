@@ -1,4 +1,4 @@
-import Booking from "../../model/book/bookSchema.js";
+import Booking from "../../model/book/BookSchema.js";
 
 const updateBooking = async (req, res) => {
   const { id } = req.params;

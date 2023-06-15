@@ -1,4 +1,4 @@
-import { Destination } from "../../model/Destination/Destination.js";
+import { Destination } from "../../model/destination/DestinationSchema.js";
 const getAllDestination = async (req, res) => {
   const { name, country, minPrice, maxPrice, sortBy, sortOrder, page, limit } =
     req.query;

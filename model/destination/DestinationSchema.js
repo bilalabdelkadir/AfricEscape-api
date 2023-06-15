@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import reviewSchema from "../review/reviewSchema.js";
-import User from "../User/User.js";
+import reviewSchema from "../review/ReviewSchema.js";
+import User from "../User/UserSchema.js";
 import Joi from "joi";
 
 const destinationSchema = new mongoose.Schema(

@@ -5,8 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js",
-    "prod": "node app.js"
+    "start:dev": "NODE_ENV=development nodemon app.js",
+    "start:staging": "NODE_ENV=staging nodemon app.js",
+    "start:prod": "NODE_ENV=production node app.js"
   },
   "author": "",
   "license": "ISC",

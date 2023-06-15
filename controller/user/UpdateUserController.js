@@ -1,4 +1,4 @@
-import User from "../../model/User/User.js";
+import User from "../../model/User/UserSchema.js";
 import sharp from "sharp";
 
 const updateUser = async (req, res) => {

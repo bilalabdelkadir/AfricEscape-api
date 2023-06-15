@@ -4,8 +4,8 @@ import {
   updateReview,
   getReview,
   getAllReviews,
-} from "../controller/review/reviewController.js";
-import authMiddleware from "../middleware/chekUser.js";
+} from "../controller/review/ReviewController.js";
+import authMiddleware from "../middleware/CheckTokenMiddleware.js";
 import express from "express";
 const router = express.Router();
 

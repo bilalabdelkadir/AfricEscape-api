@@ -1,6 +1,5 @@
-import Booking from "../../model/book/bookSchema.js";
-import { Destination } from "../../model/Destination/Destination.js";
-import User from "../../model/User/User.js";
+import Booking from "../../model/book/BookSchema.js";
+import User from "../../model/User/UserSchema.js";
 
 const deleteBooking = async (req, res) => {
   const { id } = req.params;

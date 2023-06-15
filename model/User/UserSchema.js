@@ -2,9 +2,6 @@ import mongoose from "mongoose";
 import Joi from "joi";
 import validator from "validator";
 import bcrypt from "bcryptjs";
-import crypto from "crypto";
-import reviewSchema from "../review/reviewSchema.js";
-import Booking from "../book/bookSchema.js";
 const userSchema = new mongoose.Schema(
   {
     firstName: {

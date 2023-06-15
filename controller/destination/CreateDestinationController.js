@@ -1,7 +1,7 @@
 import {
   Destination,
   validateDestination,
-} from "../../model/Destination/Destination.js";
+} from "../../model/destination/DestinationSchema.js";
 
 const createDestination = async (req, res) => {
   const userId = req.user._id;
