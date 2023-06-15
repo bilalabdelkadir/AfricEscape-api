@@ -1,4 +1,4 @@
-import User from "../../model/User/UserSchema.js";
+import User from "../../model/user/UserSchema.js";
 import { validateUser } from "../../model/User/UserSchema.js";
 import createToken from "../../utils/CreateToken.js";
 

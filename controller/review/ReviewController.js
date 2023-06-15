@@ -1,5 +1,5 @@
 import { Destination } from "../../model/destination/DestinationSchema.js";
-import User from "../../model/User/UserSchema.js";
+import User from "../../model/user/UserSchema.js";
 
 const createReview = async (req, res) => {
   const { id } = req.params;
