@@ -1,6 +1,6 @@
 import Booking from "../../model/book/BookSchema.js";
 import { Destination } from "../../model/destination/DestinationSchema.js";
-import User from "../../model/User/UserSchema.js";
+import User from "../../model/user/UserSchema.js";
 
 const createBooking = async (req, res) => {
   const { destinationId } = req.params;

@@ -1,4 +1,4 @@
-import User from "../../model/User/UserSchema.js";
+import User from "../../model/user/UserSchema.js";
 
 const deleteUser = async (req, res) => {
   const id = req.User._id;
