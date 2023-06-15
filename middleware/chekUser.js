@@ -1,11 +1,11 @@
 import jwt from "jsonwebtoken";
 
 const authMiddleware = (req, res, next) => {
-  if (!req.headers.authorization) {
+  if (!req.cookies.token) {
     return res.status(401).json({ message: "Unauthorized" });
   }
   // split the token from bearer
-  const token = req.headers.authorization.split(" ")[1];
+  const token = req.cookies.token.split(" ")[1];
 
   if (!token) {
     return res.status(401).json({ message: "Not logged in" });

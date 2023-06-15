@@ -20,13 +20,7 @@ const registerUser = async (req, res) => {
     );
 
     // Create a JWT token
-    const token = createToken(
-      user._id,
-      user.email,
-      user.firstName,
-      user.lastName,
-      user.role
-    );
+    const token = createToken(res, user._id);
 
     // send email verification
     const verificationToken = jwt.sign(
